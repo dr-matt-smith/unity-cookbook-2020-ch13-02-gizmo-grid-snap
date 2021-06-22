@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GridGizmo : MonoBehaviour
 {
-	[SerializeField]
     public int grid = 2;
 
 	public void SetGrid(int grid)
@@ -13,13 +12,10 @@ public class GridGizmo : MonoBehaviour
 		SnapAllChildren();
 	}
 
-	[SerializeField]
 	public Color gridColor = Color.red;
 
-	[SerializeField]
     public int numLines = 6;
 
-	[SerializeField]
     public int lineLength = 50;
 
 
